@@ -12,7 +12,7 @@ app.secret_key = 'adaosantos'
  
 mysql = MySQL()
    
-# Configurações ySQL 
+# Configurações MySQL 
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = ''
 app.config['MYSQL_DATABASE_DB'] = 'teste'
